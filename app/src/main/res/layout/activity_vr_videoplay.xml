@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.vr.sdk.widgets.video.VrVideoView
+        android:layout_width="match_parent"
+        android:id="@+id/vr_video_view"
+        android:layout_height="match_parent">
+    </com.google.vr.sdk.widgets.video.VrVideoView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekbar" />
+        <TextView
+            android:background="#AEAEAE"
+            android:textColor="#FFFFFF"
+            android:text="00/100s"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/time" />
+    </LinearLayout>
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:id="@+id/loading"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
