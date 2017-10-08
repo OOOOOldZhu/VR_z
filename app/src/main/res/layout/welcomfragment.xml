@@ -6,10 +6,9 @@
     android:background="@color/green">
 <Button
     android:id="@+id/tv_welcomfragment"
-    android:layout_width="200dp"
-    android:layout_height="200dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:layout_centerInParent="true"
     android:textSize="20sp"
-android:background="@color/colorAccent"
-    android:hint="欢迎使用VR应用"/>
+    android:hint="欢迎使用VR应用,点击我有惊喜"/>
 </RelativeLayout>
